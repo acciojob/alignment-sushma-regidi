@@ -13,7 +13,7 @@
     }
     table.middle td,
     table.middle th {
-      border: 1px solid black;
+      border: 1px solid rgb(0,0,0);
       padding: 1px;
     }
     .center {
