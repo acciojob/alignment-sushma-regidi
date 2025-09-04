@@ -7,58 +7,77 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
 	 <h1>HTML Assignment #3</h1>
 
   <!-- Table 1 -->
   <table id="table-1" class="middle">
     <tr>
-      <td id="t11">Row1‑Col1</td>
-      <td id="t12">Row1‑Col2</td>
-      <td id="t13" class="right">Row1‑Col3</td>
-    </tr>
-    <tr class="center">
-      <td>Row2‑Col1</td>
-      <td>Row2‑Col2</td>
-      <td class="right">Row2‑Col3</td>
+      <td id="t11">R1C1</td>
+      <td id="t12" class="center">R1C2</td>
+      <td id="t13" class="right">R1C3</td>
     </tr>
     <tr>
-      <td>Row3‑Col1</td>
-      <td>Row3‑Col2</td>
-      <td class="right">Row3‑Col3</td>
+      <td class="center">R2C1</td>
+      <td class="center">R2C2</td>
+      <td class="center right">R2C3</td>
+    </tr>
+    <tr>
+      <td>R3C1</td>
+      <td class="center">R3C2</td>
+      <td class="right">R3C3</td>
     </tr>
   </table>
 
   <!-- Table 2 -->
-  <table id="table-2" class="center">
+  <table id="table-2" class="middle">
     <tr>
-      <td id="t21" colspan="6">This is a single cell spanning all 6 columns</td>
+      <td id="t21" colspan="6">Header Row (colspan=6)</td>
     </tr>
-    <!-- Next 5 rows: 6 columns each -->
-    <tr><td>2,1</td><td>2,2</td><td>2,3</td><td>2,4</td><td>2,5</td><td>2,6</td></tr>
-    <tr><td>3,1</td><td>3,2</td><td>3,3</td><td>3,4</td><td>3,5</td><td>3,6</td></tr>
-    <tr><td>4,1</td><td>4,2</td><td>4,3</td><td>4,4</td><td>4,5</td><td>4,6</td></tr>
-    <tr><td>5,1</td><td>5,2</td><td>5,3</td><td>5,4</td><td>5,5</td><td>5,6</td></tr>
-    <tr><td>6,1</td><td>6,2</td><td>6,3</td><td>6,4</td><td>6,5</td><td>6,6</td></tr>
+    <tr>
+      <td>R2C1</td><td>R2C2</td><td>R2C3</td><td>R2C4</td><td>R2C5</td><td>R2C6</td>
+    </tr>
+    <tr>
+      <td>R3C1</td><td>R3C2</td><td>R3C3</td><td>R3C4</td><td>R3C5</td><td>R3C6</td>
+    </tr>
+    <tr>
+      <td>R4C1</td><td>R4C2</td><td>R4C3</td><td>R4C4</td><td>R4C5</td><td>R4C6</td>
+    </tr>
+    <tr>
+      <td>R5C1</td><td>R5C2</td><td>R5C3</td><td>R5C4</td><td>R5C5</td><td>R5C6</td>
+    </tr>
+    <tr>
+      <td>R6C1</td><td>R6C2</td><td>R6C3</td><td>R6C4</td><td>R6C5</td><td>R6C6</td>
+    </tr>
   </table>
 
   <!-- Table 3 -->
   <table id="table-3" class="middle">
-    <!-- First row: green background -->
     <tr class="green">
-      <td>First Row (Green)</td><td></td><td></td>
+      <td colspan="3">First Row - Green</td>
     </tr>
-    <!-- Middle row with image -->
     <tr>
-      <td colspan="3" id="t-image">
-        <img src=" https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Example Image">
+      <td>Cell 1</td>
+      <td id="t-image">
+        <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Example Image">
       </td>
+      <td>Cell 3</td>
     </tr>
-    <!-- Last row: blue background -->
     <tr class="blue">
-      <td>Last Row (Blue)</td><td></td><td></td>
+      <td colspan="3">Last Row - Blue</td>
     </tr>
   </table>
+
+      
+   
+    
+
+ 
+   
+    
+
+  
+     
+    
     <script type="text/javascript" src="./script.js">
 </script>
 
